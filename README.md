@@ -52,3 +52,7 @@ Deployed using **GitHub Pages**.
 ```bash
 git clone https://github.com/nahidhasan131/Portfolio.git
 
+
+cd Portfolio
+
+
