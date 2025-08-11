@@ -33,19 +33,18 @@ Deployed using **GitHub Pages**.
 
 ## 📂 Project Structure
 Portfolio/
-│
-├── index.html # Main HTML file
-├── style.css # Main stylesheet
-├── script.js # JavaScript for interactivity
-├── images/ # All images (profile, projects, etc.)
-└── README.md # Project documentation
+- │
+- ├── index.html # Main HTML file
+- ├── style.css # Main stylesheet
+- ├── script.js # JavaScript for interactivity
+- ├── images/ # All images (profile, projects, etc.)
+- └── README.md # Project documentation
 
 ---
 
 ## 📷 Screenshot
 
 ![Portfolio Screenshot](images/screenshot.png)  
-*(Replace the path above with your actual screenshot image path)*
 
 ---
 
