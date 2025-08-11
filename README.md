@@ -51,8 +51,10 @@ Deployed using **GitHub Pages**.
 
 ```bash
 git clone https://github.com/nahidhasan131/Portfolio.git
+```
 
-
+1.Navigate to the project folder:
+```bash
 cd Portfolio
-
+```
 
