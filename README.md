@@ -32,9 +32,13 @@ Deployed using **GitHub Pages**.
 ---
 
 ## 📂 Project Structure
-
-
-
+Portfolio/
+│
+├── index.html # Main HTML file
+├── style.css # Main stylesheet
+├── script.js # JavaScript for interactivity
+├── images/ # All images (profile, projects, etc.)
+└── README.md # Project documentation
 
 ---
 
@@ -53,8 +57,18 @@ Deployed using **GitHub Pages**.
 git clone https://github.com/nahidhasan131/Portfolio.git
 ```
 
-1.Navigate to the project folder:
+2. Navigate to the project folder:
 ```bash
 cd Portfolio
 ```
 
+3. Open index.html in your browser.
+
+
+
+## 📤 Deployment on GitHub Pages
+1. Push your code to the main branch.
+2. Go to Repository Settings > Pages.
+3. Set branch to main and folder to /root.
+Your site will be live at:
+https://nahidhasan131.github.io/Portfolio/
