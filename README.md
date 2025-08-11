@@ -32,7 +32,7 @@ Deployed using **GitHub Pages**.
 ---
 
 ## 📂 Project Structure
-# Portfolio/
+### Portfolio/
 - │
 - ├── index.html # Main HTML file
 - ├── style.css # Main stylesheet
