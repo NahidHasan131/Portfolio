@@ -33,3 +33,22 @@ Deployed using **GitHub Pages**.
 
 ## 📂 Project Structure
 
+
+
+
+---
+
+## 📷 Screenshot
+
+![Portfolio Screenshot](images/screenshot.png)  
+*(Replace the path above with your actual screenshot image path)*
+
+---
+
+## 📦 How to Use Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nahidhasan131/Portfolio.git
+
