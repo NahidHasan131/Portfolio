@@ -25,8 +25,7 @@ Deployed using **GitHub Pages**.
 ## 🛠️ Technologies Used
 
 - **HTML5** – Structure of the site  
-- **CSS3** – Styling & animations  
-- **JavaScript (Vanilla)** – Interactive features  
+- **CSS3** – Styling & animations    
 - **GitHub Pages** – Hosting & deployment  
 
 ---
@@ -36,7 +35,6 @@ Deployed using **GitHub Pages**.
 - │
 - ├── index.html # Main HTML file
 - ├── style.css # Main stylesheet
-- ├── script.js # JavaScript for interactivity
 - ├── images/ # All images (profile, projects, etc.)
 - └── README.md # Project documentation
 
@@ -71,3 +69,8 @@ cd Portfolio
 3. Set branch to main and folder to /root.
 Your site will be live at:
 https://nahidhasan131.github.io/Portfolio/
+
+
+## 📬 Contact
+- 📧 Email: nahid7532140@gmail.com
+- 🌐 Website: Portfolio
