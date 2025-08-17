@@ -204,7 +204,7 @@ main, .footer-container{
 
 /* Skill */
 #skills{
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 .skill-details{
     text-align: center;
@@ -221,6 +221,10 @@ main, .footer-container{
     padding: 35px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+
+.skill img{
+    border-radius: 6px;
 }
 
 .skill-title{
@@ -320,7 +324,7 @@ footer{
 .footer-input, .footer-textarea{
     font-size: 18px;
     color: #757575;
-    width: 480px;
+    width: 100%;
     padding: 20px 30px;
     border: none;
     margin-bottom: 25px;
@@ -332,5 +336,501 @@ input::placeholder, textarea::placeholder {
   font-size: 18px;
   color: #757575;
 }
+
+
+
+/* Responsive media queries */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .skill-container, .resume-container,.footer-container, .about-items{
+        flex-direction: column;
+        gap: 0;
+    }
+    .skill-details{
+        padding: 30px 40px;
+    }
+    .section-title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .section-description{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .skill{
+        margin: 15px 50px 15px 50px;
+        padding: 30px;
+    }
+    .skill-title{
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .skill-description{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #skills{
+    margin-bottom: 90px;
+    }
+
+    /* Resume */
+    .resume-container{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .space{
+        margin-top: 50px;
+    }
+    .resume-column-title{
+        font-size: 26px;
+        margin-top: 60px;
+    }
+
+    .experience-title{
+        font-size: 22px;
+    }
+
+    .experience-subtitle{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .experience-description{
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    /* Footer */
+    .footer-container{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .footer-social{
+        margin-bottom: 80px;
+    }
+    .footer-social a img{
+        width: 24px;
+        height: 24px;
+    }
+    .footer-description{
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .footer-input, .footer-textarea{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-size: 14px;
+    }
+
+    /* primary btn */
+    .btn-primary{
+        padding: 16px 24px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    /* about */
+    .about{
+        margin: 100px 40px;
+        padding: 80px 40px;
+    }
+
+    .about-items{
+        margin-top: 50px;
+    }
+    .item-title{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .item-description{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .skill-container, .resume-container,.footer-container{
+        flex-direction: column;
+        gap: 0;
+    }
+    .skill-container, .about-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .skill-details{
+        padding: 30px 70px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .section-description{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .skill{
+        padding: 30px;
+    }
+    .skill-title{
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .skill-description{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #skills{
+    margin-bottom: 100px;
+    }
+
+          /* Resume */
+    .resume-container{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .space{
+        margin-top: 50px;
+    }
+    .resume-column-title{
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .experience-title{
+        font-size: 24px;
+    }
+
+    .experience-subtitle{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .experience-description{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    /* Footer */
+    .footer-container{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .footer-social{
+        margin-bottom: 80px;
+    }
+    .footer-social a img{
+        width: 26px;
+        height: 26px;
+    }
+    .footer-description{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .footer-input, .footer-textarea{
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-size: 16px;
+    }
+
+    /* primary btn */
+    .btn-primary{
+        padding: 18px 28px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* about */
+    .about{
+        margin: 100px 60px;
+        padding: 80px 60px;
+    }
+
+    .about-items{
+        margin-top: 20px;
+    }
+    .item-title{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .item-description{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    #skills{
+        margin-bottom: 120px;
+    }
+    main, .footer-container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .skill-details{
+        padding: 30px 160px;
+    }
+    .section-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .section-description{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .skill{
+        padding: 30px;
+    }
+    .skill-title{
+        font-size: 18px;
+        margin: 18px 0;
+    }
+    .skill-description{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #skills{
+    margin-bottom: 120px;
+   }
+
+
+   /* Resume */
+    .resume-container{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .resume-column-title{
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .experience-title{
+        font-size: 24px;
+    }
+
+    .experience-subtitle{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .experience-description{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    /* Footer */
+    .footer-container{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .footer-social a img{
+        width: 26px;
+        height: 26px;
+    }
+    .footer-description{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .footer-input, .footer-textarea{
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-size: 16px;
+    }
+
+    /* primary btn */
+    .btn-primary{
+        padding: 18px 30px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* about */
+    .about{
+        margin: 100px 80px;
+        padding: 90px 100px;
+    }
+
+    .about-items{
+        margin-top: 20px;
+    }
+    .item-title{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .item-description{
+        font-size: 17px;
+        font-weight: 700;
+    }
+   
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    main, .footer-container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .skill-details{
+        padding: 30px 160px;
+    }
+    .section-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .section-description{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .skill{
+        padding: 30px;
+    }
+
+    .skill-title{
+        font-size: 18px;
+        margin: 18px 0;
+    }
+    .skill-description{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #skills{
+    margin-bottom: 120px;
+   }
+
+   /* Resume */
+
+
+    .resume-column-title{
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .experience-title{
+        font-size: 24px;
+    }
+
+    .experience-subtitle{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .experience-description{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    /* Footer */
+  
+
+    .footer-social a img{
+        width: 26px;
+        height: 26px;
+    }
+    .footer-description{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .footer-input, .footer-textarea{
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-size: 16px;
+    }
+
+    /* primary btn */
+    .btn-primary{
+        padding: 18px 30px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* about */
+    .about{
+        padding: 100px 190px;
+    }
+
+    .about-items{
+        margin-top: 20px;
+    }
+    .item-title{
+        font-size: 17px;
+        margin-top: 40px;
+    }
+    .item-description{
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
